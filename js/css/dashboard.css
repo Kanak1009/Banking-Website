@@ -1,0 +1,83 @@
+/* Dashboard Styles */
+
+/* General Styles */
+.dashboard-container {
+    background-color: #f4f4f4; /* Light background for the dashboard */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+    font-size: 2.5rem;
+    color: #007bff; /* Primary color */
+}
+
+/* Welcome Message */
+#welcomeMessage {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Account Summary Styles */
+.account-summary {
+    margin-bottom: 30px;
+}
+
+.account-summary h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #343a40; /* Darker color for headings */
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1; /* Light hover effect */
+}
+
+/* Recent Transactions Styles */
+.recent-transactions {
+    margin-bottom: 30px;
+}
+
+.recent-transactions h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #343a40; /* Darker color for headings */
+}
+
+/* Logout Button Styles */
+#logoutButton {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .dashboard-header h1 {
+        font-size: 2rem;
+    }
+
+    #welcomeMessage {
+        font-size: 1.2rem;
+    }
+
+    .account-summary h2,
+    .recent-transactions h2 {
+        font-size: 1.5rem;
+    }
+}
